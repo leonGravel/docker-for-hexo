@@ -1,5 +1,5 @@
 # Dexo
-##记录一下自己用部署踩的坑
+## 记录一下自己用部署踩的坑
 1. 在dockerfile所在文件夹执行，创建hexo所需的环境镜像
 ```
 docker build -t hexo .
