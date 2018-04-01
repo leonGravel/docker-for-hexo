@@ -15,7 +15,7 @@ docker attach hexo
 ```
 4. 接下来的操作，就和hexo的初始化一样了
 什么`hexo g`,`hexo s`，不再赘述。
-#TODO
+# TODO
 * 镜像文件打包
 * 更加详细的文档说明
 * 想起来再写
