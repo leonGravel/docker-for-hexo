@@ -53,7 +53,7 @@ git clone https://github.com/leonGravel/docker-for-hexo.git
 2. 构建镜像
 
 ```
-cd Dexo
+cd docker-for-hexo
 docker bulid -t hexo .
 ```
 
