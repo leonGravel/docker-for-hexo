@@ -1,4 +1,4 @@
-# Dexo
+# docker-for-hexo
 一个轻量级、hexo程序的docker镜像。
 
 ### 快速开始
@@ -47,7 +47,7 @@ leebroncc/hexo s
 1. 下载源码
 
 ```
-git clone https://github.com/leonGravel/Dexo.git
+git clone https://github.com/leonGravel/docker-for-hexo.git
 ```
 
 2. 构建镜像
