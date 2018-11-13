@@ -13,8 +13,6 @@ docker run -p 4000:4000 --name hexo-server -d \
 -v {本地博客路径}/source:/hexo/source \
 -v {本地博客路径}/themes:/hexo/themes \
 -v {本地博客路径}/_config.yml:/hexo/_config.yml \
--e USER_NAME="{github用户名}" \
--e USER_EMAIL="{github邮箱}" \
 leebroncc/hexo s
 ```
 `{本地博客路径}`为你的宿主机的hexo容器共享目录，这个目录是绝对路径
@@ -37,7 +35,7 @@ docker run -p 4000:4000 --name hexo-server -d \
 -v {本地博客路径}/_config.yml:/hexo/_config.yml \
 -e USER_NAME="{github用户名}" \
 -e USER_EMAIL="{github邮箱}" \
-leebroncc/hexo s
+leebroncc/hexo d
 ```
 
 即可部署成功。
