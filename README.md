@@ -1,5 +1,11 @@
 # docker-for-hexo
-一个轻量级、hexo程序的docker镜像。
+
+![Docker Automated build](https://img.shields.io/docker/automated/leebroncc/hexo.svg)
+![Docker Build Status](https://img.shields.io/docker/build/leebroncc/hexo.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/leebroncc/hexo.svg)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/leebroncc/hexo.svg)
+
+一个轻量级的hexo docker镜像。
 
 ### 快速开始
 
